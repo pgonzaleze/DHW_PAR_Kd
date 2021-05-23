@@ -183,9 +183,9 @@ model3 <- train(bleaching ~ DCW1_5, data=CCB,
               trControl=train_control, method="glm", family="binomial")
 model4 <- train(bleaching ~ DCW2, data=CCB,
               trControl=train_control, method="glm", family="binomial")
-model5 <- train(bleaching ~ CSMCS, data=CCB,
+model5 <- train(bleaching ~ CSM.CS, data=CCB,
                 trControl=train_control, method="glm", family="binomial")
-model6 <- train(bleaching ~ DCWMCS0, data=CCB,
+model6 <- train(bleaching ~ DCW.MCS0, data=CCB,
                 trControl=train_control, method="glm", family="binomial")
 model7 <- train(bleaching ~ DCW + DLW, data=CCB,
                 trControl=train_control, method="glm", family="binomial")
@@ -209,7 +209,7 @@ model16 <- train(bleaching ~ CountDays + CPARprevm, data=CCB,
                  trControl=train_control, method="glm", family="binomial")
 model17 <- train(bleaching ~ LS, data=CCB,
                 trControl=train_control, method="glm", family="binomial")
-model18 <- train(bleaching ~ CPAR , data=CCB,
+model18 <- train(bleaching ~ C.PAR , data=CCB,
                 trControl=train_control, method="glm", family="binomial")
 
 ##### print cross-validation scores #####
