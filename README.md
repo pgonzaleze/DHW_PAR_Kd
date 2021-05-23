@@ -11,7 +11,7 @@
 
 2.- Use any 'site_extraction_values*.ipynb' file to extract the desired environmental data for specified sites. After running the code, the output is saved in '.h5' format. You need the '*.h5' file to run the next step.
 
-3.- Use the 'df_*-DCW.ipynb' file to compute the metrics. e.g DCW, ColdSpots, etc
+3.- Use the 'df_*-DCW.ipynb' file to compute the metrics. e.g DCW, ColdSpots, etc. The output is a dataframe/table
 
 4.- Merge all the data-frames and save them as .csv 
 
