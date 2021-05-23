@@ -1,6 +1,6 @@
 # Predicting cold-water bleaching in corals 
 
-#### Repository with the R and python/jupyter notebook scripts, and data frame regarding the coral bleaching caused by cold sea surface temperature paper published on [MEPS; doi.org/10.3354/meps13336](https://doi.org/10.3354/meps13336)
+#### Repository with the R and python/jupyter notebook scripts, and data frame regarding the coral bleaching caused by cold sea surface temperature paper published on [MEPS doi.org/10.3354/meps13336](https://doi.org/10.3354/meps13336)
 
 ## Instructions
 
