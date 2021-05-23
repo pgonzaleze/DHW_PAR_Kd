@@ -1,6 +1,6 @@
 # Predicting cold-water bleaching in corals 
 
-#### Repository with the R and python/jupyter notebook scripts, and data frame regarding the coral bleaching caused by cold sea surface temperature paper published on [MEPS](https://doi.org/10.3354/meps13336) & [supplementary material](http://www.int-res.com/articles/suppl/m642p133_supp.pdf)
+#### Repository with the R and python/jupyter notebook scripts, and data-frames regarding the coral bleaching caused by cold sea surface temperature paper published on [MEPS](https://doi.org/10.3354/meps13336) 
 
 ## Instructions
 
@@ -18,3 +18,5 @@
 5.- Use the 'logistic_regression.R' to perform the statistical tets *
 
 *Notice the 'DCW_PAR_Kd.csv' file has the condensed data so that the 'logistic_regression.R' can be  used directly 
+
+Link to [supplementary material](http://www.int-res.com/articles/suppl/m642p133_supp.pdf)
