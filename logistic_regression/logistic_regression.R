@@ -31,20 +31,14 @@ CCB[,22] <- as.factor(CCB[,22])  # the "response" should be binary and as factor
 CCB <-subset(CCB, DCW != 0)   ## clean all DCW = 0 since there are no chances to have
                               ## a bleaching with no thermal stress
 
-# CCB <- subset(CCB, !site_name %in% c('ESC','PTG', 'CAN', 'LNV')) # Optional
-
 ###### dimensions and structure ####
 dim(CCB)  # dimensions 
 str(CCB)  # structure of the dataframe
 
-#### exploratory analysis ####
-hist(CCB$DCW)
-hist(CCB$dDLW)
-hist(CCB$Kd490)
-
 ###########################################################################
 ####################### split data in train and test ######################
 ###########################################################################
+
 ## First glimpse of logistic regression model
 ## Two options:
 set.seed(11) # this is applied for replicatibility
@@ -140,7 +134,6 @@ pred.probM8 = predict(model8, newdata= test, type="response")
 pred.probM8 = ifelse(pred.probM8 > 0.5, 1, 0)
 pred.probM8
 
-
 ###########################################################################
 ##############################   DCW ONLY #################################
 ###########################################################################
@@ -165,9 +158,7 @@ mean(yy_pred == yy_act)
 anova(model8, model2, test="LRT")
 
 ###########################################################################
-###########################################################################
 ####################### Cross-validation analysis #########################
-###########################################################################
 ###########################################################################
 
 # 3 options 
