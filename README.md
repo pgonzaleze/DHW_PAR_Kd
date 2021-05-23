@@ -15,7 +15,7 @@
 
 4.- Merge all the data-frames and save them as .csv 
 
-5.- Use the 'logistic_regression.R' to perform the statistical tets *
+5.- Use the files in 'stats' folder to perform the logistic regression and cluster analysis *
 
 *Notice the 'DCW_PAR_Kd.csv' file has the condensed data so that the 'logistic_regression.R' & 'cluster_analysis.R' can be used directly 
 
