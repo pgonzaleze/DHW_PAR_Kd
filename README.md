@@ -17,6 +17,6 @@
 
 5.- Use the 'logistic_regression.R' to perform the statistical tets *
 
-*Notice the 'DCW_PAR_Kd.csv' file has the condensed data so that the 'logistic_regression.R' can be  used directly 
+*Notice the 'DCW_PAR_Kd.csv' file has the condensed data so that the 'logistic_regression.R' & 'cluster_analysis.R' can be used directly 
 
 Link to [supplementary material](http://www.int-res.com/articles/suppl/m642p133_supp.pdf)
