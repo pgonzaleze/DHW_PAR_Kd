@@ -7,7 +7,7 @@
 1.- Download environmental data in NetCDF format. The data is publicly available at:
   * [SST](https://coralreefwatch.noaa.gov/product/5km/index.php)
   * [PAR](https://oceancolor.gsfc.nasa.gov/l3/)
-  * [Kd490](https://oceancolor.gsfc.nasa.gov/l3/) 
+  * [Kd<sub>490</sub>](https://oceancolor.gsfc.nasa.gov/l3/) 
 
 2.- Use any 'site_extraction_values*.ipynb' file to extract the desired environmental data for specified sites. After running the code, the output is saved in '.h5' format. You need the '*.h5' file to run the next step.
 
