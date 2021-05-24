@@ -40,7 +40,7 @@ k2 <- kmeans(df, centers = 2, nstart = 25)
 #str(k2)
 fviz_cluster(k2, data = df)
 
-# PAM 
+# PAM; 'partition around medoids'
 pam <- pam((scale(df)),stand = TRUE, 2) 
 (pam_plot <- fviz_cluster(pam, ellipse.type = 'convex', geom = 'point') +
     scale_color_manual(values=c("gray1", "black")) +
