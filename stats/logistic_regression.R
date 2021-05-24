@@ -76,6 +76,7 @@ model9 = glm(bleaching ~ CS + LS + Kd490a,
              data=train, family=binomial(link = 'logit'))
 model10 = glm(bleaching ~ DCW + LS + Kd490a,
              data=train, family=binomial(link = 'logit'))
+
 #### confirm and use the one with better performance (AIC and R2)####
 summary(model1)
 summary(model2)
@@ -97,6 +98,7 @@ nagelkerke(model7)
 nagelkerke(model8) # *
 nagelkerke(model9)
 nagelkerke(model10)
+
 #### Defining the threshold ####
 res <- predict(model8, train, type = "response")
 ROCRPred <- prediction(res, train$bleaching)
