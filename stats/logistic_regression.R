@@ -19,7 +19,7 @@ library(caTools) # library to split the database in test and training
 library(ggplot2)  # For plotting 
 library(ROCR) # library to plot cutoffs of logistic regression
 library(rcompanion) # to get the pseudoR2
-library(caret) # For CrossValidation using "repeatedcv" method. Other option include "cv" and "LOOCV"
+library(caret) # For Cross-Validation using "repeatedcv" method. Other options include "cv" and "LOOCV"
 library(corrplot) # For correlation plot
 library(plotly) # for 3D plot 
 
